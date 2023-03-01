@@ -35,7 +35,7 @@ if which node >/dev/null; then
 else
     echo "Node does not exist"
 fi
-
+#C Compile and Test
 if which gcc >/dev/null; then
     gcc read.c -o cread
     ./cread
@@ -43,7 +43,7 @@ if which gcc >/dev/null; then
 else
     echo "GCC compiler does not exist"
 fi
-
+#C++ Compile and Test
 if which g++ >/dev/null; then
     g++ read.cpp -o cppread
     ./cppread
